@@ -1,0 +1,13 @@
+Coluna,Descricao,Tipo,Observacao
+ID_Conversa,Identificador unico da conversa no sistema conversacional.,Texto,—
+Data_Hora_Inicio,Data e hora em que o cliente iniciou a conversa.,Data/Hora,—
+Canal,Canal de origem do atendimento.,Categorico,"WhatsApp, App"
+Tipo_Sinistro,Linha de produto associada ao sinistro relatado.,Categorico,"Auto, Residencial, Vida"
+Segmento_Cliente,Segmento comercial do cliente na Convex Seguros.,Categorico,"Varejo, Premium, Corporativo"
+Regiao,Regiao do Brasil do cliente.,Categorico,"Sudeste, Sul, Nordeste, Centro-Oeste, Norte"
+Dispositivo,Sistema operacional do dispositivo do cliente.,Categorico,"Android, iOS"
+Etapa_Saida_Conversa,"Etapa do funil de atendimento em que a conversa foi concluida, escalada ou abandonada.",Categorico,"Inicio_Saudacao, Validacao_Apolice, Coleta_Dados_Sinistro, Upload_Fotos_Documentos, Analise_Automatica, Confirmacao_Protocolo"
+Status_Final,Desfecho da conversa.,Categorico,"Valores esperados: Resolvido_Bot, Escalado_Humano, Abandonado. Verificar se todos os valores da coluna seguem exatamente esse padrao."
+Tempo_Resolucao_Min,"Tempo total da conversa ate a resolucao pelo bot ou escalonamento, em minutos. Vazio quando a conversa foi abandonada.",Numerico,—
+CSAT_1a5,"Nota de satisfacao pos-atendimento, escala de 1 a 5. Nem toda conversa recebe resposta do cliente.",Numerico,Pode estar vazio
+Valor_Estimado_Sinistro_RS,"Valor estimado do sinistro em Reais, coletado a partir da etapa de Coleta_Dados_Sinistro em diante.",Numerico (R$),Vazio para conversas que nao chegaram a essa etapa

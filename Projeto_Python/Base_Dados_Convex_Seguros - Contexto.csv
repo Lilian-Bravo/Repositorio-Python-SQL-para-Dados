@@ -1,0 +1,6 @@
+CONVEX SEGUROS — BASE DE DADOS: ATENDIMENTO CONVERSACIONAL DE SINISTROS
+
+Fonte: logs do assistente conversacional (WhatsApp e App) operado pela Blip para a jornada de abertura de sinistros.
+Periodo coberto: 01/01/2026 a 30/04/2026.
+Unidade de observacao: 1 linha = 1 conversa iniciada pelo cliente para tratar um sinistro.
+"Recomenda-se inspecionar volumetria, tipos de dado e consistencia categorica antes de iniciar qualquer analise."
